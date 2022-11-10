@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter with Redux</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.0/redux.min.js"
+      integrity="sha512-1/8Tj23BRrWnKZXeBruk6wTnsMJbi/lJsk9bsRgVwb6j5q39n0A00gFjbCTaDo5l5XrPVv4DZXftrJExhRF/Ug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="text-gray-700">
+    <div class="container mx-auto">
+      <div class="text-center py-2">
+        <h1 class="text-5xl font-bold">0</h1>
+      </div>
+      <div class="flex justify-center items-center space-x-8">
+        <div class="text-center p-4">
+          <h2 class="text-3xl font-bold">Steps</h2>
+          <div class="my-4 flex justify-center itemes-center space-x-6">
+            <button
+              class="step-5 bg-green-300 text-white border-2 border-green-400 rounded-lg py-2 px-4"
+            >
+              5
+            </button>
+            <button
+              class="step-10 bg-green-300 text-white border-2 border-green-400 rounded-lg py-2 px-4"
+            >
+              10
+            </button>
+            <button
+              class="step-15 bg-green-300 text-white border-2 border-green-400 rounded-lg py-2 px-4"
+            >
+              15
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center itemes-center space-x-2 my-6">
+        <button
+          class="increment bg-green-300 text-white border-2 border-green-400 rounded-lg py-2 px-4"
+        >
+          Increment
+        </button>
+        <button
+          class="decrement bg-green-300 text-white border-2 border-green-400 rounded-lg py-2 px-4"
+        >
+          Decrement
+        </button>
+        <button
+          class="reset bg-green-300 text-white border-2 border-green-400 rounded-lg py-2 px-4"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
